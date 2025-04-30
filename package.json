@@ -1,0 +1,16 @@
+{
+  "name": "cypress-logging-example",
+  "version": "1.0.0",
+  "description": "Exemplo de logs estruturados com Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --reporter mochawesome"
+  },
+  "dependencies": {
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.8.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+} 
